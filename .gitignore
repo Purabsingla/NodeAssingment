@@ -4,7 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
-
+#files
+.js
+!Tables.js
+!loginpage.js
+!App.js
+!index.js
+components/
+containers/
+services/
 # testing
 /coverage
 
