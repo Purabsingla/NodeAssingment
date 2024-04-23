@@ -1,0 +1,8 @@
+.snd{
+    background-image: url('Pattern.png');
+    background-repeat: repeat;
+}
+.fst{
+    background-color: rgb(43, 40, 46);
+    color: white;
+}
