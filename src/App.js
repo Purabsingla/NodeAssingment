@@ -12,18 +12,22 @@ import './App.css';
 // import Caro from './Carousels';
 // import Login from './Login_Bootstrap';
 // import Preventdefault from './Preventdefault'
-import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
-import LNK from './link';
-import Pre from './Prevent';
-import Get from './APIGET';
-import Post from './APIPOST';
-import Greet from './Classmodule';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+// import LNK from './link';
+// import Pre from './Prevent';
+// import Get from './APIGET';
+// import Post from './APIPOST';
+// import Greet from './Classmodule';
 // import FactFeb from './FactFeb';
-import MEMO from './UseMemO';
-import Refrence from './Ref';
-import ApiGet from './Nodetestapi';
-import { LoginCard } from './loginpage';
-import { TableWithStripedRows } from './Tables';
+// import MEMO from './UseMemO';
+// import Refrence from './Ref';
+// import ApiGet from './Nodetestapi';
+// import { LoginCard } from './loginpage';
+// import { TableWithStripedRows } from './Tables';
+// import { NavbarWithMegaMenu } from './TailwindNavbar';
+import MyClass from './TestFile__1';
+import MyClass2 from './TestFile__2';
+import MyClass3 from './TestFile__3';
 function App() {
   // const[data,setdata] = useState(10);
   // const[data1,setdata1] = useState(20);
@@ -54,8 +58,8 @@ function App() {
       <Prog />
       <Caro /> */}
       {/* <Login /> */}
-   {/* <h1>some data</h1> */}
-   {/* <Router>
+      {/* <h1>some data</h1> */}
+      {/* <Router>
     <Routes>
       <Route path='/' element={<Pre />}></Route>
       <Route path="/ram" element={<LNK />}></Route>
@@ -68,12 +72,16 @@ function App() {
    <MEMO />
    <Refrence />
    <ApiGet /> */}
+      {/* <NavbarWithMegaMenu />
    <Router>
       <Routes>
         <Route path='/' element={<LoginCard />}/>
         <Route path='/tables' element={<TableWithStripedRows />}/>
       </Routes>
-   </Router>
+   </Router> */}
+      <MyClass3 />
+      <MyClass2 />
+      <MyClass />
     </div>
   );
 }
